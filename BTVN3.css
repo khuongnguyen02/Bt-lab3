@@ -1,0 +1,97 @@
+body{
+    background-color: beige;
+    margin: 250px;
+
+}
+
+div{
+    margin: 10px;
+}
+.head {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    width: 60%;
+    padding-left: 25px;
+    height: 100%;
+    box-sizing: border-box;
+
+}
+
+.tentacgia{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 10px;
+
+}
+.div1{
+    height: 100%;
+
+    float: right;
+    float: top;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding-left: 15px;
+    font-size: 40px;
+    padding-bottom: 35px;
+
+}
+
+.p2{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.noti{
+    font-size: 17px;
+    font-weight: normal;
+}
+
+button{
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    /*padding: 25px,10px,25px,10px;*/
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.head2{
+    float: right;
+    float: top;
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 70%;
+    font-size: 25px;
+    margin: 15px;
+    padding: 30px;
+
+}
+
+.head4{
+    width: 250px;
+    border: beige 15px solid;
+}
+
+.head3{
+    border-color: beige;
+    float: left;
+    float: bottom;
+    background-color: white;
+    color: black;
+    width: 30%;
+    height: 30%;
+    font-size: 25px;
+    margin: 15px;
+    padding: 0px;
+
+
+}
