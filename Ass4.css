@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*Tat ca cac the deu bi dinh chuong*/
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*shorthand*/
+.header,.main,.footer{
+    float: left;
+    width: 100%;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    /*auto cho no nam giua man hinh*/
+    /*sua man hinh la xong*/
+}
+
+.header-left{
+    float: left;
+    width: 40%
+}
+
+.header-mid{
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.header-right{
+    float: right;
+    width: 30%;
+}
+
+.content{
+    float: left;
+    width: 66.67%;
+}
+.sidebar{
+    float: right;
+    width: 33.33%;
+}
+
+.header{
+    padding: 20px 0px;
+    background-color: white;
+    float: left;
+}
+
+
+.menu li{
+    float: left;
+    margin-left: 20px;
+    /*neu khong muon co cham thi list style: none*/
+    padding: 10px 0;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a{
+    float: left;
+    font-size: 24px;
+    text-transform: uppercase;
+    /*chuyen doi chu*/
+    color: #333131;
+    font-weight: 600;
+}
+
+.search{
+    float: right;
+    width: 200px;
+    background-color: #f2f2f2;
+    padding: 5px 5px;
+    border-radius: 300px;
+}
+
+.span{
+    padding: 5px 15px;
+    float: right;
+}
+
+.button{
+    border-radius: 90px;
+    float: right;
+    padding: 5px 15px;
+    border-radius: 120px;
+    color: white;
+    background-color: lightseagreen;
+}
+
+
+
+
+
+.menu li a:hover{
+    background-color: beige;
+    padding: 10px;
+}
