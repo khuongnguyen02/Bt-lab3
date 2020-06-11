@@ -1,0 +1,173 @@
+
+body{
+    padding: 30px;
+    margin-left: 200px;
+    margin-top: 25px;
+    margin-right: 200px;
+}
+
+#s1{
+    float: right;
+    float: top;
+}
+
+div{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1{
+    margin-top: 20px;
+    background: gray;
+    float: left;
+    width: 15%;
+    min-height: 138px;
+    clear: left;
+}
+.div2{
+    margin-top: 20px;
+    background: gray;
+    float: left;
+    width: 70%;
+    min-height: 138px;
+
+}
+.div3{
+    margin-top: 20px;
+    background: gray;
+    float: left;
+    width: 15%;
+    min-height: 138px;
+}
+.div4{
+    margin-top: 20px;
+    background:#cccccc;
+    float: left;
+    width: 15%;
+    min-height: 138px;
+    clear: left;
+    border-color: #cccccc;
+}
+.div5{
+    margin-top: 20px;
+    background: #cccccc;
+    float: left;
+    width: 70%;
+    min-height: 138px;
+    border-color: #cccccc;
+
+}
+.div6{
+    margin-top: 20px;
+    background: #cccccc;
+    float: left;
+    width: 15%;
+    min-height: 138px;
+    border-color: #cccccc;
+}
+button{
+    background-color: coral;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.button2{
+    background-color: orangered;
+}
+
+.button3{
+    background-color: green;
+}
+.button4{
+    background-color: coral;
+}
+.button5{
+    background-color: red ;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+}
+.button6{
+    background-color: orange;
+}
+
+.tamgiacnguoc{
+    /*padding-top: 0px;*/
+    float: top;
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 100px solid red;
+    border-left: 100px solid transparent;
+    position: relative;
+}
+
+.chutrongtamgiac{
+    font-size: 20px;
+    font-weight: bold;
+    transform: rotate(45deg);
+    float: right;
+    float: top;
+    /*margin: 0 auto;*/
+    position: absolute;
+    margin: -60px;
+    text-align: center;
+    color: white;
+
+}
+
+.head{
+    color: coral;
+    font-size: 25px;
+}
+
+.head2{
+    color: coral;
+    font-size: 20px;
+}
+
+.head3{
+    color: orangered;
+    font-size: 25px;
+}
+
+.head4{
+    color: orangered;
+    font-size: 20px;
+}
+
+.head5{
+    color: green;
+    font-size: 25px;
+}
+
+.head6{
+    color: green;
+    font-size: 20px;
+}
+
+.head7{
+    color: coral;
+    font-size: 25px;
+}
+
+.head8{
+    color: coral;
+    font-size: 20px;
+}
+
+.head9{
+    color: chocolate;
+    font-size: 25px;
+}
+.head10{
+    color: chocolate;
+    font-size: 20px;
+}
+
+
+
+
+
+
