@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Data</title>
+</head>
+<body>
+   <form method="post" action="#">
+       <input type="text" name="username" placeholder="Username..." required/><br><br>
+       <input type="email" name="email" placeholder="Email..." required/><br><br>
+       <input type="password" name="user_password" placeholder="Password" required/> <br><br>
+       <label><input type="checkbox" name="ready" /> I'm fucking Ready</label><br><br>
+       <label><input type="radio" name="sex" value="1"/>Male</label><br><br>
+       <label><input type="radio" name="sex" value="2"/>Female</label><br><br>
+       <label><input type="radio" name="sex" value="3"/>Other</label><br><br>
+       <label><input type="date" name="bỉthday" placeholder="Ngày sinh"></label><br><br>
+       <input type="color" name="Phuoc's color" placeholder="Color..."/><br><br>
+       <input type="number" name="Khuong's money" placeholder="Money..."/><br><br>
+       <input type="range" name="volume" min="0" max="100" placeholder="Range..."/><br><br>
+       <input type="file" name="avatar" placeholder="Avatar"/> <br><br>
+       <input type="hidden" name="_token" value="dme"/>
+<!--       muốn chuyển lựa chọn phải đặt giá trị khác và tên giống-->
+<!--   required bắt điền mới cho submit-->
+       <button type="submit">Submit</button>
+       <button type="reset"> Reset</button>
+       <button type="button">Button</button><br><br>
+
+       <select name="faculty">
+           <option value="Math">Math</option>
+<!--           value de phan hoi len may chu-->
+           <option value="IT">IT</option>
+
+       </select>
+       <textarea name="tieusubanthan" placeholder="Tiểu sử bản thân..."></textarea>
+
+   </form>
+
+
+
+</body>
+</html>
