@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="regis.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="tenform">
+        <h1 class="title1"> EVENT REGISTRATION FORM</h1>
+    </div>
+
+    <div class="content">
+
+        <div class="company">
+            <div class="brand">Name</div>
+            <div class="FirstName">
+                <form method="post" action="#">
+                    <input type="text" class="input-text1" name="FirstName"><br>
+                    <p style="float: left;padding-top: 5px; opacity: 0.6">First Name</p>
+                </form>
+            </div>
+            <div class="LastName">
+                <form method="post" action="#">
+                    <input type="text" class="input-text1" name="LastName"><br>
+                    <p style="float: left;padding-top: 5px; opacity: 0.6">Last Name</p>
+                </form>
+            </div>
+        </div>
+
+        <div class="company">
+            <div class="brand"><p style="padding-left: 20px">Company</p></div>
+            <div class="companyname">
+                <input type="text" class="input-text2" name="company name">
+
+            </div>
+        </div>
+
+        <div class="company">
+            <div class="brand">Email</div>
+            <div class="companyname">
+                <input type="email" class="input-text2" name="email">
+
+            </div>
+        </div>
+
+        <div class="company">
+            <div class="brand">Phone</div>
+            <div class="areaCode">
+                <form method="post" action="#">
+                    <input type="text" class="input-text3" name="areaCode"><br>
+                    <p style="float: left;padding-top: 5px; opacity: 0.6">Area Code</p>
+                </form>
+            </div>
+            <div class="phoneNumber">
+                <form method="post" action="#">
+                    <input type="text" class="input-text4" name="phoneNumber"><br>
+                    <p style="float: left;padding-top: 5px; opacity: 0.6">Phone Number</p>
+                </form>
+            </div>
+        </div>
+
+        <div class="company">
+            <div class="brand"><p style="padding-left: 10px; padding-bottom: 5px">Subject</p></div>
+            <div class="companyname">
+                <select class="input-text 2" name="subject">
+                    <option value="Wine">Wine</option>
+                    <!--           value de phan hoi len may chu-->
+                    <option value="Bread">Bread</option>
+                    <option value="Grapes">Grapes</option>
+                    <option value="Rock'n Roll">Rock'n Roll</option>
+
+                </select>
+
+            </div>
+        </div>
+
+        <div class="company">
+            <div class="brand2"><p style="padding-left: 6%; float: left;">Are you an existing customer?</p></div>
+            <form method="post" action="#">
+                <div class="radio1">
+
+                    <input type="radio" name="Yes" value="1" style="padding-left: 40px"> Yes
+
+
+                </div>
+                <div class="radio1">
+
+                    <input type="radio" name="Yes" value="2" style="padding-left: 10px;"> No
+                </div>
+            </form>
+        </div>
+
+        <div class="register">
+            <button type="submit">
+                REGISTER
+            </button>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
