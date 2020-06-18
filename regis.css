@@ -5,7 +5,8 @@
 }
 
 body{
-    background-image: linear-gradient(45deg,skyblue,mediumpurple,violet);
+    background-image: linear-gradient(45deg,skyblue,violet);
+    background-repeat: no-repeat;
 }
 
 
@@ -26,6 +27,7 @@ body{
     margin-left: 500px;
     margin-top: 30px;
     margin-bottom: 20px;
+    height: 1000px;
 }
 
 .input-text:focus{
